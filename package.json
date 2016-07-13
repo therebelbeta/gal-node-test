@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "advanced": "NODE_DEBUG=galileo nodemon app.js",
+    "basic": "NODE_DEBUG=galileo nodemon app2.js",
+    "cleaninstall":"rm -rf node_modules && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "galileo-agent": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
